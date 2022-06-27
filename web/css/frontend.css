@@ -1,0 +1,342 @@
+hr{
+    border: none;
+    background-color: rgb(36, 185, 68);
+    color: rgb(36, 185, 68);
+    height: 1px;
+}
+.head-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 60px;
+}
+#logo-prov{
+   padding-top: 0px;
+   padding-left: 12px;
+   text-align: center;
+}
+#logo{
+    width: 54px;
+    height: 50px;
+}
+#ver-center{
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 20px;
+}
+#star-tarif{
+    width: 38px;
+    height:38px;  
+}
+#ticket-img{
+width: 28px;
+height: 28px;
+}
+.phone-block{
+    margin-top: 5px;
+    text-align: center;
+}
+.disp-line{
+    display: inline;
+}
+.img-text{
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.marg-lr{
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.text-white{
+    color: white;
+    font-family: system-ui; 
+    font-size: 125%;
+    margin-left: 20px;
+}
+.aling-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.btn-modal{
+    width: 300px;
+}
+.inline-al{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#zatemnenie1:target {display: block;}
+
+      #zatemnenie {
+      background: rgba(102, 102, 102, 0.5);
+      width: 100%;
+      min-width: 380px;
+      height: 1050px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: none;
+      
+    }
+    #okno {
+      height: auto;
+      min-width: 310px;
+      text-align: center;
+      padding-top: 5px;
+      border: 2px solid #009933;
+      border-radius: 15px;
+      position: absolute;
+      top: 10%;
+      right: 10%;
+      bottom: 10%;
+      left: 10%;
+      margin: 0 auto;
+      background: #fff;
+    }
+    #zatemnenie:target {display: block;}
+    .close {
+      display: inline-block;
+      padding: 0;
+      margin: 0;
+      text-decoration: none;
+      cursor:pointer;
+    }
+    #modal-block{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .label-width{
+        width: 120px;
+        text-align: left;
+
+    }
+    #close-img{
+        margin-right: 10px;
+    }
+    .modal-h{
+        margin-top: 10px;
+        margin-bottom: 25px;
+    }
+    .carousel-container{
+        min-width: 1200;
+        margin-bottom: 20px;
+    }
+    .black-text{
+        color: black;
+    }
+    .space-row{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-bottom: 20px;
+    }
+    .card-text{
+        text-align: center;
+    }
+    .tarif{
+        margin-bottom: 10px;
+    }
+    .tarif p{
+        padding: 0;
+        margin: 0;
+    }
+    .tarif-green{
+        color: #009933;
+        font-size:large;
+    }
+    .post-head{
+        text-align: center;
+    }
+    .post-head img{
+        width: 620px;
+        height: 340px;
+        margin-bottom: 10px;
+    }
+    .post-head h3{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .post-text p{
+        text-align: justify;
+    }
+    .btn-286{
+        width: 286px;
+    }
+    
+    @media (max-width: 1075px){
+        #okno{
+            height: 760px;
+        }
+        #modal-block{
+            display: block;
+        }
+        .column1{
+            width: 400px;
+            margin: 0 auto;
+        }
+        .column2{
+            width: 400px;
+            margin: 0 auto;
+        }
+        
+    }
+    @media (min-width: 470px) and (max-width: 770px){
+        #logo {
+            width: 34px;
+            height: 34px;
+            padding-top: 5px;
+        }
+        .head-info{
+            font-size: 12px;
+        }
+        .phone-block{
+            font-size: 12px; 
+        }
+        .prov-img{
+            width: 40px;
+            height: 36px;
+        }
+        #tv-img{
+            width: 70px;
+            height: 36px;
+        }
+        #star-tarif{
+            width: 28px;
+            height: 28px;
+        }
+        .popular-tarif{
+            font-size: 13px;
+        }
+        .tarif{
+            font-size: 13px;
+            margin-bottom: 6px;
+        }
+        .tarif-green{
+            font-size: 13px;
+        }
+        .text-white{
+            font-size: 13px;
+        }
+        #ticket-img{
+            width: 20px;
+            height: 20px;
+        }
+        .card-body{
+            padding: 5px;
+        }
+        .modal-h{
+            font-size: 20px;
+        }
+        #news-img{
+            width: 420px;
+            height: 220px;
+        }
+    }
+    
+    @media (max-width: 540px){
+        .row-inp{
+            width: 200px;
+        }
+        .column1{
+            width: 290px;
+            margin: 0 auto;
+            font-size: 13px;
+        }
+        .column2{
+            width: 290px;
+            margin: 0 auto;
+            font-size: 13px;
+        }
+        .modal-h{
+            font-size: 18px;
+        }
+        .label-width{
+            width: 100px;
+        }
+    }
+    @media (min-width: 0px) and (max-width: 469px){
+        .main-container{
+            min-width: 380px;
+        }
+        .nav-link{
+            font-size: 13px;
+        }
+        .main-container{
+            min-width: 380px;
+        }
+        #logo {
+            width: 34px;
+            height: 34px;
+            padding-top: 5px;
+        }
+        .head-info{
+            font-size: 12px;
+        }
+        .phone-block{
+            font-size: 12px; 
+        }
+        .prov-img{
+            width: 40px;
+            height: 36px;
+        }
+        #tv-img{
+            width: 70px;
+            height: 36px;
+        }
+        #star-tarif{
+            width: 28px;
+            height: 28px;
+        }
+        .popular-tarif{
+            font-size: 13px;
+        }
+        .tarif{
+            font-size: 12px;
+            margin-bottom: 4px;
+        }
+        .tarif-green{
+            font-size: 12px;
+        }
+        .text-white{
+            font-size: 12px;
+        }
+        .card-body{
+            padding: 3px;
+        }
+        .text-white{
+            font-size: 11px;
+        }
+        #ticket-img{
+            width: 15px;
+            height: 15px;
+        }
+        .btn-modal{
+            width: 200px;
+            font-size: 12px;
+        }
+        #logo-prov{
+            padding-left: 0;
+        }
+        #news-img{
+            width: 340px;
+            height: 180px;
+        }
+        .post-title{
+            font-size: 20px;
+        }
+        .posts{
+            min-width: 360px;
+            padding-right: 10px;
+        }
+        hr{
+            min-width: 350px;
+            
+        }
+
+    }

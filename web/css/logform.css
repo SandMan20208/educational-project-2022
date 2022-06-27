@@ -1,0 +1,50 @@
+.log-cont{
+	display: flex;
+	justify-content:center;
+	
+}
+.log-container{
+	text-align: center;
+	max-width: 500px;
+	min-width: 500px;
+	width: 500px;
+	margin-top: 150px;
+	margin-left: 320px;
+	margin-right:320px;
+	padding: 20px 80px 10px 0px;
+	background-color: Silver;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	
+}
+.log-in{
+	width: 300px;
+	padding: 5px 20px 5px 20px;
+	border:  none;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.3);
+	margin-left: 5px;
+}
+.logo-form{
+	text-align: center;
+	margin-bottom:20px;
+	width: 500px;
+}
+.label-logo{
+	margin-top: 15px;
+	padding-left: 0px;
+	color: white;
+	font: bold 20pt sans-serif;
+
+}
+.btn-enter{
+	width: 300px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+.message-container{
+	display:flex;
+	justify-content: center;
+	width: 500px;
+}
+.message-w{
+	width: 350px;
+}

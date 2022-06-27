@@ -1,0 +1,99 @@
+.nav-line{
+	display: flex;
+	flex-direction:row;
+}
+.pad-left{
+	margin-left: 30px;
+}
+.head-style{
+	color: white;
+}
+.form-container{
+	margin-left:25px;
+	margin-right:25px;
+	margin-top:25px;
+	padding-left: 12px;
+	padding-right: 12px;
+	padding-top: 17px;
+	padding-bottom: 12px;
+	background-color: rgb(243, 243, 247);
+	border: 1px solid #cfcfcfbd;
+	min-width: 1000px;
+}
+#col-update{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+.row-form{
+	display: inline;
+	width: 160px;
+}
+.row-inp{
+	display: inline;
+	width: 290px;
+}
+.form-line{
+	display: flex;
+	flex-direction: row;
+	justify-content:space-around;
+}
+.btn-save{
+	width: 200px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.search-line{
+	display: flex;
+	flex-direction: row;
+	justify-content: left;
+
+}
+.search-input{
+	min-width: 350px;
+	width: 350px;
+	height: 25px;
+}
+.btn-search{
+	border: none;
+	width: 38px;
+	height: 38px;
+	background: url(/web/image/search-icon.png) no-repeat 50% 50%;;
+}
+.btn-container{
+	display: flex;
+	flex-direction:row;
+	justify-content:center;
+}
+.text-center{
+	text-align: center;
+}
+#grid-container{
+	margin-top: 25px;
+}
+#btn-view{
+	display:inline ;
+	
+}
+#btn-update{
+	display: inline;
+	margin-right: 5px;
+}
+#btn-delete{
+	display: inline;
+}
+h3{
+	margin-top: 15px;
+	text-align: center;
+}
+.act-col{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 55px;
+	height: 25px;
+}
+.act-col img:hover{
+	width: 23px;
+	height: 23px;
+}
